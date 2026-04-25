@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc; /* Very soft slate background */
+  --surface: #ffffff;    /* Pure white for cards */
+  --foreground: #0f172a; /* Dark slate for text */
+  --primary: #501cab;    /* Violet/Purple from the image */
+  --primary-light: #ede9fe;
+  --border: #e2e8f0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Nuke the scrollbars completely */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::selection {
+  background-color: var(--primary-light);
+  color: var(--primary);
+}
