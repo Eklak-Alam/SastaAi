@@ -3,7 +3,7 @@
 A high-performance, low-latency conversational interface engineered for local LLM orchestration. This platform utilizes Server-Sent Events (SSE) and an Edge proxy architecture to stream tokens in real-time from a local Llama 3 model directly to a highly polished Next.js frontend.
 
 ## System Architecture
-12345
+1234
 This repository is structured as a monorepo containing two decoupled microservices:
 
 * **AI Engine (Backend):** A highly concurrent FastAPI server that interfaces with Ollama. It wraps the local LLM generation process and yields formatted SSE chunks.
